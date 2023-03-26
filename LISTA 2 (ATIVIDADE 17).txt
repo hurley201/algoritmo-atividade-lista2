@@ -1,0 +1,28 @@
+Algoritmo "Lista 2 (atividade 17"
+// 
+//  
+//
+Var
+  velocidade , multa:real
+
+
+
+Inicio
+
+escreva("Qual sua velocidade: ")
+leia(velocidade)
+multa <- (velocidade - 80)*5
+
+se velocidade <= 80 entao
+escreva( "sua velocidade é ",velocidade, " adequada para via")
+senao
+escreva("Sua velocidae é" ,velocidade, " esta acima do permitido o valor da multa é: ",multa, "R$")
+
+fimse
+
+
+
+
+
+
+Fimalgoritmo
